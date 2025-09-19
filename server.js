@@ -99,7 +99,7 @@ app.post("/subscribe-email", async (req, res) => {
 
 		const mailOptions = {
 			from: process.env.SMTP_USER,
-			to: ["techdevsinc@gmail.com", "ops@axploreDMC.com", "dhananjayavare786@gmail.com"],
+			to: ["techdevsinc@gmail.com", "ops@axploreDMC.com"],
 			subject: `New Email Subscription`,
 			html: `
         <p><strong>Email:</strong> ${email}</p>
